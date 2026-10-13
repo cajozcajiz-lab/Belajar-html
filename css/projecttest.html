@@ -6,12 +6,22 @@
     <title>Document</title>
     <style>
 
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            background-color: whitesmoke;
+
+        }
+
         .container{
             display: flex;
             flex-direction: row;
-            justify-content: center;
+            justify-content: space-around;
             align-items: center;
-            gap: 200px;
+            gap: 40px;
             flex-wrap: wrap;
         }
         .card{
@@ -22,6 +32,27 @@
             border: 2px solid black;
             border-radius: 30px;
         }
+        .tiktok{
+            background-color: black;
+            color: white;
+        }
+
+        .instagram{
+            background: #9b2a75;
+background: linear-gradient(90deg, rgba(155, 42, 117, 1) 0%, rgba(87, 199, 133, 1) 0%, rgba(193, 53, 132, 1) 0%, rgba(253, 29, 29, 1) 100%);
+            color: white;
+        }
+
+        .whatsapp{
+            background-color: #25D366;
+            color: white;
+        }
+
+        .twitter{
+            background-color: #1DA1F2;
+            color: white;
+        }
+
     </style>
 </head>
 <body>
@@ -29,22 +60,22 @@
     <div class="container">
 
     
-    <div class="card">
+    <div class="card tiktok">
         <h1>TikTok</h1>
         <p>sosial media paling populer</p>
     </div>
 
-    <div class="card">
+    <div class="card instagram">
         <h1>Instagram</h1>
         <p>sosial media untuk berbagi foto</p>
     </div>
 
-    <div class="card">
+    <div class="card whatsapp">
         <h1>WhatsApp</h1>
         <p>sosial media untuk berkomunikasi</p>
     </div>
 
-    <div class="card">
+    <div class="card twitter">
         <h1>Twitter</h1>
         <p>sosial media untuk berbagi pendapat</p>
     </div>
